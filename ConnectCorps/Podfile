@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ConnectCorps' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ConnectCorps
+  pod 'MessageKit', '~> 0.8.2'
+  pod 'ApiAI', '~> 0.7.2'
+  pod 'Magnetic'
+  pod 'Alamofire'
+  pod 'Pulley'
+  pod 'Mapbox-iOS-SDK', '~> 5.4'
+  pod 'MapboxSceneKit', :git => 'https://github.com/mapbox/mapbox-scenekit.git'
+  pod 'MapboxMobileEvents'
+  pod 'MapboxGeocoder.swift', '~> 0.11'
+end

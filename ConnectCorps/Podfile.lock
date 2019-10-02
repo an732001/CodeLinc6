@@ -1,0 +1,81 @@
+PODS:
+  - Alamofire (4.9.0)
+  - ApiAI (0.7.2):
+    - ApiAI/AudioFileConverter (= 0.7.2)
+    - ApiAI/Core (= 0.7.2)
+    - ApiAI/Events (= 0.7.2)
+    - ApiAI/ResponseMapping (= 0.7.2)
+    - ApiAI/UIKit (= 0.7.2)
+    - ApiAI/UserEntities (= 0.7.2)
+    - ApiAI/VoiceFileRequest (= 0.7.2)
+    - ApiAI/VoiceRequest (= 0.7.2)
+  - ApiAI/AudioFileConverter (0.7.2):
+    - ApiAI/Core
+  - ApiAI/Core (0.7.2)
+  - ApiAI/Events (0.7.2):
+    - ApiAI/Core
+  - ApiAI/ResponseMapping (0.7.2):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.2):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/UserEntities (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceFileRequest (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceRequest (0.7.2):
+    - ApiAI/Core
+  - Magnetic (3.1.0)
+  - Mapbox-iOS-SDK (5.4.0)
+  - MapboxGeocoder.swift (0.11.0)
+  - MapboxMobileEvents (0.9.5)
+  - MapboxSceneKit (0.1.0):
+    - MapboxMobileEvents (~> 0.4)
+  - MessageKit (0.8.2)
+  - Pulley (2.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ApiAI (~> 0.7.2)
+  - Magnetic
+  - Mapbox-iOS-SDK (~> 5.4)
+  - MapboxGeocoder.swift (~> 0.11)
+  - MapboxMobileEvents
+  - MapboxSceneKit (from `https://github.com/mapbox/mapbox-scenekit.git`)
+  - MessageKit (~> 0.8.2)
+  - Pulley
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ApiAI
+    - Magnetic
+    - Mapbox-iOS-SDK
+    - MapboxGeocoder.swift
+    - MapboxMobileEvents
+    - MessageKit
+    - Pulley
+
+EXTERNAL SOURCES:
+  MapboxSceneKit:
+    :git: https://github.com/mapbox/mapbox-scenekit.git
+
+CHECKOUT OPTIONS:
+  MapboxSceneKit:
+    :commit: 9063c71933ebdf3b8e44b668b4c9bfb7830c76d5
+    :git: https://github.com/mapbox/mapbox-scenekit.git
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  ApiAI: d4b49d3736f33ce6f3ef66dc33c0e0fccb23579e
+  Magnetic: fb3903fb17d70191af155ec22ae039dc9748e66c
+  Mapbox-iOS-SDK: 2b58f752d94e57e95b8e54f3b52569199f6efdba
+  MapboxGeocoder.swift: b78a3d2f42bef7d51edbb2444768634e5de722db
+  MapboxMobileEvents: f6c21b2e59066c5c7093585de7c15adae3b63da0
+  MapboxSceneKit: f51dd12b4e82735e4571e394841ca42bcac7990f
+  MessageKit: c0633c29af374f6b3040ed6d7123ed2c2edc1763
+  Pulley: 028ddcc7d2dcbc078d71b61b7eee8e786d72c14a
+
+PODFILE CHECKSUM: 28f88b40c03d5daf6ff6d4f700771f6b4a41d905
+
+COCOAPODS: 1.8.1
